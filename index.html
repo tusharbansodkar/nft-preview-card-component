@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  Equilibrium #3429
+  <div class="container">
+    <article class="img_container">
+      <div class="hvr_style"></div>
+    </article>
 
-  Our Equilibrium collection promotes balance and calm.
+    <article>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+      <h2>Equilibrium #3429</h2>
+    </article>
+
+    <article>
+
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+    </article>
+
+
+    <div class="info">
+      <div class="inner_box">
+        <img src="/images/icon-ethereum.svg" alt="" style="margin-right: 5px;">
+        <span style="color: cyan;">0.041 ETH</span>
+      </div>
+
+      <div class="inner_box">
+        <img src="/images/icon-clock.svg " alt="" style="margin-right: 5px;">
+        <span>3 days left</span>
+      </div>
+    </div>
+
+    <div class="img_avtar">
+      <img src="/images/image-avatar.png" alt="">
+      <span style="color: hsl(215, 51%, 70%); margin-left: 15px;">Creation of</span><span id="creator_name">&nbspJules Wyvern</span>
+    </div>
+
+  </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Tushar</a>.
   </div>
 </body>
+
 </html>
