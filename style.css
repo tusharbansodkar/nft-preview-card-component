@@ -23,7 +23,7 @@
   }
 
   .container .img_container {
-    background: url(./images/image-equilibrium.jpg);
+    background-image: url(./images/image-equilibrium.jpg);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
